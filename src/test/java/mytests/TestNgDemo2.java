@@ -29,18 +29,18 @@ public class TestNgDemo2 {
 	@Test(groups = {"Regression"})
 	public void testCase2() {
 
-		/*
-		 * System.setProperty("webdriver.driver.chrome",
-		 * "C:\\Users\\DELL\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
-		 * WebDriver driver = new ChromeDriver();
-		 * driver.get("https://www.facebook.com/");
-		 */
+		
+		  System.setProperty("webdriver.driver.chrome",
+		  "C:\\Users\\DELL\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
+		  WebDriver driver = new ChromeDriver();
+		  driver.get("https://www.facebook.com/");
+		 
 		System.out.println("Regression");
-		/*
-		 * System.out.println(driver.getTitle());
-		 * 
-		 * Assert.assertEquals(driver.getTitle(), "Facebook – log in or sign up");
-		 */
+		
+		  System.out.println(driver.getTitle());
+		  
+		  Assert.assertEquals(driver.getTitle(), "Facebook – log in or sign up");
+		 
 		
 	}
 	@Test(groups = {"Smoke"})

@@ -48,11 +48,11 @@ public class MyTestNgDemo {
 
 	@BeforeMethod
 	public void beforeMethod() {
-		/*
-		 * System.setProperty(
-		 * "webdriver.driver.chrome","C:\\Users\\DELL\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe"
-		 * ); driver=new ChromeDriver();
-		 */
+		
+		  System.setProperty(
+		  "webdriver.driver.chrome","C:\\Users\\DELL\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe"
+		  ); driver=new ChromeDriver();
+		 
 		System.out.println("beforeMethod");
 	}
 
