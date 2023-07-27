@@ -61,10 +61,10 @@ public class MyTestNgDemo {
 		// driver.quit();
 		System.out.println("afterMethod");
 	}
-	/*
-	 * @Test(groups = {"SmokeTest","Regression"}) public void testCase1() {
-	 * driver.get("https://www.facebook.com/"); System.out.println("testCase1"); }
-	 */
+	
+	  @Test(groups = {"SmokeTest","Regression"}) public void testCase1() {
+	  driver.get("https://www.facebook.com/"); System.out.println("testCase1"); }
+	 
 
 	/*
 	 * @Test(dependsOnMethods = "testCase1") public void testCase2() {
