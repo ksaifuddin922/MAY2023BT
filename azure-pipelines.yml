@@ -7,7 +7,7 @@ trigger:
 - dev
 
 pool:
-  none
+  mywindows
 
 steps:
 - script: echo Hello, world!
